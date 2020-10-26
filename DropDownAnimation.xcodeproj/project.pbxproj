@@ -11,6 +11,7 @@
 		4DA2C79C2547194300F743BF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2C79B2547194300F743BF /* ContentView.swift */; };
 		4DA2C79E2547194400F743BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA2C79D2547194400F743BF /* Assets.xcassets */; };
 		4DA2C7A12547194400F743BF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DA2C7A02547194400F743BF /* Preview Assets.xcassets */; };
+		4DA2C7AB25471BB400F743BF /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA2C7AA25471BB400F743BF /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		4DA2C79D2547194400F743BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DA2C7A02547194400F743BF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4DA2C7A22547194400F743BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DA2C7AA25471BB400F743BF /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				4DA2C7992547194300F743BF /* DropDownAnimationApp.swift */,
 				4DA2C79B2547194300F743BF /* ContentView.swift */,
+				4DA2C7A925471B9200F743BF /* Extension */,
 				4DA2C79D2547194400F743BF /* Assets.xcassets */,
 				4DA2C7A22547194400F743BF /* Info.plist */,
 				4DA2C79F2547194400F743BF /* Preview Content */,
@@ -67,6 +70,14 @@
 				4DA2C7A02547194400F743BF /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4DA2C7A925471B9200F743BF /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				4DA2C7AA25471BB400F743BF /* Color.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +151,7 @@
 			files = (
 				4DA2C79C2547194300F743BF /* ContentView.swift in Sources */,
 				4DA2C79A2547194300F743BF /* DropDownAnimationApp.swift in Sources */,
+				4DA2C7AB25471BB400F743BF /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
